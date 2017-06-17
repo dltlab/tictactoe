@@ -1,0 +1,54 @@
+<!doctype>
+<html>
+
+<head>
+    <title>TIC TAC TOE</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <script src="./app.js"></script>
+</head>
+<body>
+<span id="loaded1">player1: 0x877d2df64e5ccdde3fc4a2250c30c56148effc89  </span>
+<br>
+<span id="balance1"></span>
+<br><br>
+<span id="loaded2">player2: 0xdf7be7583edfe654886e3e65c9f190ef574cad39  </span>
+<br>
+<span id="balance2"></span>
+
+<span id="result"></span>
+<span id="result2"></span>
+
+<br><br><br>
+
+<input type="button" onclick="App.update()" value="Refresh"/>
+<input type="button" onclick="App.start_game()" value="Start Game!"/>
+
+<br><br><br>
+
+<span id="balance"></span><br>
+<span id="turn"></span><br>
+<span id="timelimit"></span>
+
+<br><br><br>
+
+<span id="board"></span>
+
+<br><br><br>
+
+<input id="row" type="number" placeholder="ROW"/>
+<input id="column" type="number" placeholder="COLUMN"/>
+
+<br>
+
+<input type="button" onclick="App.go_player_1()" value="Play Player 1"/>
+
+<input type="button" onclick="App.go_player_2()" value="Play Player 2"/>
+
+
+<br>
+<br>
+<br>
+
+<input type="button" onclick="App.claim_reward()" value="Claim Reward"/>
+</body>
+</html>
